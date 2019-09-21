@@ -2,14 +2,14 @@
   "name": "next-theme",
   "builds": [
     {
-      "src": "wp-content/themes/next-theme/package.json",
+      "src": "folder/folder/next-theme/package.json",
       "use": "@now/next"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "wp-content/themes/next-theme/$1",
+      "dest": "folder/folder/next-theme/$1",
       "continue": true
     }
   ]
