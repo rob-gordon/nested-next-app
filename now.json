@@ -1,5 +1,5 @@
 {
-  "name": "next-theme",
+  "name": "nested-next-app",
   "builds": [
     {
       "src": "folder/folder/next-theme/package.json",
